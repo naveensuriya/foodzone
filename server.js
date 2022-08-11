@@ -10,7 +10,7 @@ const mongoose=require("mongoose")
 const path=require("path")
 
 // connect express server with react
-// app.use(exp.static(path.join(__dirname,"./build")))
+app.use(exp.static(path.join(__dirname,"./build")))
 app.use(cors())
 mongoose.connect(process.env.DATABASE_URL)
 .then(()=>console.log("database is connected successfully"))
