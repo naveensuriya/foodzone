@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background-image: url("https://previews.123rf.com/images/titco/titco2004/titco200400024/144919598-wood-background-abstract-wooden-texture.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.login {
+  cursor: pointer;
+}
+
+.success {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(9, 90, 9);
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+
+.neutral{
+  height: 15px;
+  width: 15px;
+  background-color: #F8D210;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.failure{
+  height: 15px;
+  width: 15px;
+  background-color: #F51720;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.img { 
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 120px;
+  left: 20%;
+  font-weight: bold;
+  color: #1D3537;
+  font-size: 30px;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+
+
+.main {
+  margin-bottom: 100px;
+}
+
+
+.list {
+    
+  list-style:none;
+ padding-top: 30px;
+ 
+
+}
+
+.list li {
+  padding-bottom: 15px ;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
